@@ -1,33 +1,35 @@
-# Taller 1 - Sistemas Operativos
+# 🖥️ Taller 1 - Sistemas Operativos
 
 ### Universidad EIA | 2026
 
 ---
 
-## 1. Explique para qué se usa cada uno de los siguientes directorios en el kernel Linux:
+## 1. 📁 Explique para qué se usa cada uno de los siguientes directorios en el kernel Linux:
 
 
-| Directorio | Explicación                                            |
-| ---------- | ------------------------------------------------------ |
-| `bin`      | Usado para almacenar binarios del usuario              |
-| `opt`      |                                                        |
-| `boot`     | Son archivos ejecutables y requeridos para el arranque |
-| `dev`      |                                                        |
-| `sbin`     |                                                        |
-| `etc`      |                                                        |
-| `home`     |                                                        |
-| `srv`      |                                                        |
-| `lib`      |                                                        |
-| `tmp`      |                                                        |
-| `usr`      |                                                        |
-| `media`    |                                                        |
-| `var`      |                                                        |
-| `mnt`      |                                                        |
+| Directorio | Explicación                                                     |
+| ---------- | --------------------------------------------------------------- |
+| `bin`      | Usado para almacenar binarios del usuario.                      |
+| `opt`      |                                                                 |
+| `boot`     | Son archivos ejecutables y requeridos para el arranque.         |
+| `dev`      | Son archivos de infomacion de todos los volúmenes.              |
+| `sbin`     |                                                                 |
+| `etc`      | Son archivos de configuración del sisema y de las aplicaciones. |
+| `home`     | Directorio principal con las carpetas del usuario.              |
+| `srv`      |                                                                 |
+| `lib`      |                                                                 |
+| `tmp`      |                                                                 |
+| `usr`      |                                                                 |
+| `media`    |                                                                 |
+| `var`      |                                                                 |
+| `mnt`      |                                                                 |
 
+
+> Extraído de las diapositivas
 
 ---
 
-## 2. Editor de Texto VIM
+## 2. ✏️ Editor de Texto VIM
 
 ### Instalación y pruebas básicas
 
@@ -41,7 +43,7 @@
 
 > *Escriba su respuesta aquí*
 
-### Otros editores de texto populares (sin instalar)
+### Otros editores de texto populares (sin instalar) 📌
 
 
 | Editor | Descripción |
@@ -53,7 +55,7 @@
 
 ---
 
-## 3. Operadores en Bash
+## 3. ⚡ Operadores en Bash (Carpeta 3)
 
 > Explique y muestre con un ejemplo el uso de los siguientes operadores (sin relación con `if`, `elif`, `else`):
 
@@ -83,7 +85,7 @@
 
 ---
 
-## 4. Comandos `find` y `grep`
+## 4. 🔍 Comandos `find` y `grep`
 
 ### `find`
 
@@ -103,13 +105,13 @@
 
 ---
 
-## 5. Comodines (Wildcards)
+## 5. 🃏 Comodines (Wildcards)
 
 **¿Qué son los comodines?**
 
 > *Escriba su respuesta aquí*
 
-### Ejemplos:
+### Ejemplos 📝
 
 #### `*`
 
@@ -131,7 +133,7 @@
 
 ---
 
-## 6. Condicionales con números flotantes en Bash
+## 6. 🔢 Condicionales con números flotantes en Bash
 
 > Muestre cómo usar `if` o `elif` cuando la condición depende de un número flotante.  
 > Ejemplo: mostrar un mensaje si una variable es mayor a `4.5`
@@ -142,7 +144,7 @@
 
 ---
 
-## 7. Scripts - Arreglos
+## 7. 📊 Scripts - Arreglos
 
 ### a. Número máximo y mínimo de un arreglo
 
@@ -170,7 +172,7 @@
 
 ---
 
-## 8. Scripts - Carpetas y Archivos
+## 8. 📂 Scripts - Carpetas y Archivos
 
 ### a. Crear una carpeta con X subcarpetas
 
@@ -198,7 +200,7 @@
 
 ---
 
-## 9. Scripts - Gestión de Archivos
+## 9. 📁 Scripts - Gestión de Archivos
 
 ### a. Mostrar el tamaño de cada archivo en una carpeta
 
@@ -232,7 +234,7 @@
 
 ---
 
-## 10. Uso de parámetros al correr un archivo `.sh`
+## 10. 📋 Uso de parámetros al correr un archivo `.sh`
 
 **Explicación:**
 
@@ -242,7 +244,7 @@
 
 ---
 
-## 11. Comando `awk`
+## 11. ⚙️ Comando `awk`
 
 **¿Qué es `awk`?**
 
