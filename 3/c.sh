@@ -3,5 +3,5 @@
 
 echo ""
 echo "Ejemplo: Ejecutar a.sh y contar total de líneas de salida"
-./a.sh | wc -l
+./a.sh | wc -l # wc -l es un comando que cuenta el total de lineas de salida
 

@@ -88,16 +88,58 @@ brew install vim
 
 **Explicación:**
 
+>  Find se usa para buscar en el sistema de archivos y directorios. La entrada es el nombre del archivo con extensión. Tiene muchas funcionalidades extra como buscar los  archivos modificados en los ultimos dias, buscar por peso, tambien se puede buscar y ejecutar un comando en cada resultado, y tambien se puede buscar por la extension del archivo.
+
 ```bash
-# Ejemplo
+# Buscar archivos por nombre
+find . -name "*.txt"
+
+# Buscar solo directorios
+find /home -type d -name "docs"
+
+# Buscar archivos modificados en los últimos 7 días
+find . -mtime -7
+
+# Buscar archivos mayores a 10MB
+find . -size +10M
+
+# Buscar y ejecutar un comando en cada resultado
+find . -name "*.log" -exec rm {} \;
+
+# Buscar por extensión (case insensitive)
+find . -iname "*.PDF"
+
+# Estructura básica
+find directorio -nombre "*.extensión"
 ```
 
 ### `grep`
 
 **Explicación:**
 
+> Se usa para buscar texto dentro de archivos o salidas de archivos. Puede buscar en todos los archvios de una carpeta, listar lineas en las que no coincide, hacer que la busqeuda sea case insensitive(Que no importen las mayúsculas) y tambien que nos muestre los numeros de las lineas que contienen nuestra búsqueda.
+
 ```bash
-# Ejemplo
+# Buscar "error" en un archivo
+grep "error" archivo.log
+
+# Buscar en varios archivos
+grep "TODO" *.py
+
+# Buscar en todos los archivos de una carpeta recursivamente
+grep -r "palabra" ./documentos/
+
+# Case insensitive
+grep -i "warning" log.txt
+
+# Mostrar solo las líneas que NO coinciden
+grep -v "comentario" config.txt
+
+# Mostrar números de línea
+grep -n "función" script.sh
+
+# Estructura básica 
+grep "busqueda" archivo.extensión
 ```
 
 ---
