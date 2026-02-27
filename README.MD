@@ -36,7 +36,9 @@
 > Instale VIM y realice pruebas básicas como modificar un archivo.
 
 ```bash
-# Escriba aquí los comandos usados
+# Para instalar vim en MacOS (con homebrew porque lo tenía desde antes)
+
+brew install vim
 ```
 
 ### ¿Cuál es más de su gusto? ¿Por qué?
@@ -46,11 +48,12 @@
 ### Otros editores de texto populares (sin instalar) 📌
 
 
-| Editor | Descripción |
-| ------ | ----------- |
-|        |             |
-|        |             |
-|        |             |
+| Editor    | Descripción                                                                                                                                                                                |
+| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Micro     | Editor muy similar a nano en el sentido de que es simple y no es muy pesado                                                                                                                |
+| Neovim    | Es un fork moderno de Vim con UI mejorada, tiene capacidad de hacer scripts con el lenguage Lua(El cual es muy bueno para embebir en aplicaciones y desarollar funcionalidades rápidamente |
+| Notepad++ | Es un editor de texto mas enfocado en ser un reemplazo para el Bloc de notas, que tiene la capacidad de ser un reemplazo ligero para VSCode (Perdiendo funcionalidad, claro)               |
+| Emacs     | Editor altamente modificable, tiene combinaciones de teclas para todo. Al principio hay una curva de aprendizaje alta pero es muy util.                                                    |
 
 
 ---
