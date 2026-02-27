@@ -66,25 +66,19 @@ brew install vim
 
 **Explicación:**
 
-```bash
-# Ejemplo
-```
+> Este es el operador mayor que. Se usa para escribir la salida del archivo de la derecha en el archivo de la izquierda
 
 ### b. `&&`
 
 **Explicación:**
 
-```bash
-# Ejemplo
-```
+> Este es el operador AND. Se usa para ejecutar el segundo archivo solo si el primero tuvo éxito.
 
 ### c. `|`
 
 **Explicación:**
 
-```bash
-# Ejemplo
-```
+> Este es el operador PIPE. Sirve para iniciar dos procesos de shell al tiempo. El PIPE es un canal de una sola vuelta o sea que la salida de el proceso de la izquierda es la entrada del proceso de la derecha(Siendo estrictos es la salida de stdout).
 
 ---
 
