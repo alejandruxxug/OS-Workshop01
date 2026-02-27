@@ -1,8 +1,9 @@
 total 32
-drwxr-xr-x@ 7 urrexx  staff  224 Feb 26 20:29 .
+drwxr-xr-x@ 8 urrexx  staff  256 Feb 26 20:29 .
 drwxr-xr-x@ 5 urrexx  staff  160 Feb 26 19:24 ..
--rwxr-xr-x@ 1 urrexx  staff  343 Feb 26 20:29 a.sh
--rwxr-xr-x@ 1 urrexx  staff  307 Feb 26 20:29 b.sh
--rwxr-xr-x@ 1 urrexx  staff  360 Feb 26 20:29 c.sh
--rw-r--r--@ 1 urrexx  staff    0 Feb 26 20:29 lista_archivos.txt
--rw-r--r--@ 1 urrexx  staff   11 Feb 26 20:29 output.txt
+-rwxr-xr-x@ 1 urrexx  staff  228 Feb 27 16:54 a.sh
+-rwxr-xr-x@ 1 urrexx  staff  169 Feb 27 16:54 b.sh
+-rwxr-xr-x@ 1 urrexx  staff  166 Feb 27 16:58 c.sh
+-rw-r--r--@ 1 urrexx  staff    0 Feb 27 16:59 lista_archivos.txt
+drwxr-xr-x@ 2 urrexx  staff   64 Feb 26 20:29 mi_carpeta
+-rw-r--r--@ 1 urrexx  staff   11 Feb 27 16:59 output.txt
