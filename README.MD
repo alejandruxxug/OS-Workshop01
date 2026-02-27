@@ -7,25 +7,25 @@
 ## 1. 📁 Explique para qué se usa cada uno de los siguientes directorios en el kernel Linux:
 
 
-| Directorio | Explicación                                                     |
-| ---------- | --------------------------------------------------------------- |
-| `bin`      | Usado para almacenar binarios del usuario.                      |
-| `opt`      |                                                                 |
-| `boot`     | Son archivos ejecutables y requeridos para el arranque.         |
-| `dev`      | Son archivos de infomacion de todos los volúmenes.              |
-| `sbin`     |                                                                 |
-| `etc`      | Son archivos de configuración del sisema y de las aplicaciones. |
-| `home`     | Directorio principal con las carpetas del usuario.              |
-| `srv`      |                                                                 |
-| `lib`      |                                                                 |
-| `tmp`      |                                                                 |
-| `usr`      |                                                                 |
-| `media`    |                                                                 |
-| `var`      |                                                                 |
-| `mnt`      |                                                                 |
+| Directorio | Explicación                                                                                                                   |
+| ---------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| `bin`      | Usado para almacenar binarios del usuario. Son comandos que deben de funcionar incluso en modo de recuperación.               |
+| `opt`      | Son ficheros de aplicaciones externas que no se integran en /usr. Es decir estosno siguen la jerarquia estandar.              |
+| `boot`     | Son archivos ejecutables y requeridos para el arranque.                                                                       |
+| `dev`      | Son archivos de infomacion de todos los volúmenes. Estos representan dispotivos ya sean discos, particiones, terminales, etc. |
+| `sbin`     | Son archivos binarios del sistema. Usados principalmente por root.                                                            |
+| `etc`      | Son archivos de configuración del sisema y de las aplicaciones.                                                               |
+| `home`     | Es el directorio principal con las carpetas del usuario.                                                                      |
+| `srv`      | Son archivos relativos a servidores web, FTP, etc. Son archivos de servicios.                                                 |
+| `lib`      | Son bibliotecas compartidas y requeridas para los binarios de /bin.                                                           |
+| `tmp`      | Son archivos temporales.                                                                                                      |
+| `usr`      | Son archivos de programas y aplicaciones instaladas.                                                                          |
+| `media`    | Es el directorio de montaje de volúmenes extraibles.                                                                          |
+| `var`      | Archivos de variables. pueden ser logs, cache, bases de datos, colas de impresión, etc.                                       |
+| `mnt`      | Puntos de montaje manuales para discos, particiones o sistemas de archivos temporales.                                        |
 
 
-> Extraído de las diapositivas
+> Extraído de las diapositivas y complementado con búsquedas en la web.
 
 ---
 
