@@ -154,17 +154,23 @@ grep "busqueda" archivo.extensión
 
 #### `*`
 
+ >
+
 ```bash
 # Ejemplo
 ```
 
 #### `?`
 
+>
+
 ```bash
 # Ejemplo
 ```
 
 #### `[]`
+
+>
 
 ```bash
 # Ejemplo
