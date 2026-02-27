@@ -43,7 +43,7 @@ brew install vim
 
 ### ¿Cuál es más de su gusto? ¿Por qué?
 
-> *Escriba su respuesta aquí*
+> *Por facilidad de usar NANO es muy claro ya que tiene los comandos basicos visibles en la interfaz, en cambio nano uno tiene que usar las keybinds para navegar y si uno no las conoce pues se sentiria muy foreign el editor. Pero en su tiempo(ya que VIM tiene 34 años) me puedo imagino como este revolucionó la indistria ya que integraba lectura facil de código. Si yo fuera un desarollador de hace 20 años VIM seria mi go-to pero ahora como hay alternativas más modernas pues obvio le apunto a lo novedoso 😆.* 
 
 ### Otros editores de texto populares (sin instalar) 📌
 
