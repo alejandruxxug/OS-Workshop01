@@ -192,18 +192,14 @@ ls [Aa]*
 
 ---
 
-## 6. 🔢 Condicionales con números flotantes en Bash
+## 6. 🔢 Condicionales con números flotantes en Bash (Carpeta 6)
 
 > Muestre cómo usar `if` o `elif` cuando la condición depende de un número flotante.  
 > Ejemplo: mostrar un mensaje si una variable es mayor a `4.5`
 
-```bash
-# Script aquí
-```
-
 ---
 
-## 7. 📊 Scripts - Arreglos
+## 7. 📊 Scripts - Arreglos ()
 
 ### a. Número máximo y mínimo de un arreglo
 
