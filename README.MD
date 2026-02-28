@@ -265,9 +265,22 @@ ls [Aa]*
 
 **Explicación:**
 
+> Nosostros podemos usar parametros asi:
+
 ```bash
-# Ejemplo
+./script.sh arg1 arg2 arg3
 ```
+
+> En bash tenemos ciertos nombres de variables reservados, estos son los parametros
+>
+> - $1, $2, $3, ... : Argumento 1, Argumento 2, Argumento 3,..
+> - $# : Numero de argumentos
+>
+> Tambien tenemos otras utilidades reservadas como:
+>
+> - $0 : Nombre del archivo.
+> - $@ : Todos los argumentos (Como palabras separadas).
+> - $* : Todos los argumentos como un string.
 
 ---
 
@@ -275,7 +288,7 @@ ls [Aa]*
 
 **¿Qué es `awk`?**
 
-> *El comando awk es un comando para procesar texto para trabajar con datos estructurados, especialmente filas y columnas. Un ejemplo pueden ser archivos .csv o logs.*
+> El comando awk es un comando para procesar texto para trabajar con datos estructurados, especialmente filas y columnas. Un ejemplo pueden ser archivos .csv o logs.
 
 ```bash
 # Estructura de uso
