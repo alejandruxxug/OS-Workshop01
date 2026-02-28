@@ -199,7 +199,7 @@ ls [Aa]*
 
 ---
 
-## 7. 📊 Scripts - Arreglos ()
+## 7. 📊 Scripts - Arreglos (Carpeta 7)
 
 ### a. Número máximo y mínimo de un arreglo
 
