@@ -203,55 +203,27 @@ ls [Aa]*
 
 ### a. Número máximo y mínimo de un arreglo
 
-```bash
-# Script aquí
-```
-
 ### b. Encontrar un elemento particular en un arreglo
-
-```bash
-# Script aquí
-```
 
 ### c. Contar cuántas veces se encuentra un elemento
 
-```bash
-# Script aquí
-```
-
 ### d. Ordenar un arreglo de forma ascendente o descendente
-
-```bash
-# Script aquí
-```
 
 ---
 
-## 8. 📂 Scripts - Carpetas y Archivos
+## 8. 📂 Scripts - Carpetas y Archivos (Carpeta 8)
 
 ### a. Crear una carpeta con X subcarpetas
 
 > X debe ser solicitado por consola.
 
-```bash
-# Script aquí
-```
-
 ### b. Crear carpetas con archivos de texto con nombres aleatorios
 
 > Crear una carpeta con X subcarpetas, cada una con Y archivos de texto con nombres numéricos aleatorios.
 
-```bash
-# Script aquí
-```
-
 ### c. Renombrar archivos con nombre par a nombre impar
 
 > Usando el resultado del script anterior, renombrar todos los archivos con nombre par por un nombre impar.
-
-```bash
-# Script aquí
-```
 
 ---
 
@@ -303,17 +275,28 @@ ls [Aa]*
 
 **¿Qué es `awk`?**
 
-> *Escriba su explicación aquí*
+> *El comando awk es un comando para procesar texto para trabajar con datos estructurados, especialmente filas y columnas. Un ejemplo pueden ser archivos .csv o logs.*
+
+```bash
+# Estructura de uso
+awk 'patrón { acción }' archivo
+
+# El patrón es el indicativo de cuando correr.
+# La acción es el qué hacer.
+```
 
 ### Ejemplo 1:
 
 ```bash
-# Ejemplo
+# Imprimir la primera y tercera columna (Con el echo hacemos la "tabla")
+echo "a b c d" | awk '{print $1, $3}'
 ```
 
 ### Ejemplo 2:
 
 ```bash
-# Ejemplo
+# Hacemos un tipo csv, con coma hacemos la delimmitación y que nos imprima la segunda columna.
+echo "nombre,edad,ciudad" | awk -F',' '{print $2}'
+
 ```
 
