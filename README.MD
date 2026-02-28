@@ -148,32 +148,46 @@ grep "busqueda" archivo.extensión
 
 **¿Qué son los comodines?**
 
-> *Escriba su respuesta aquí*
+> Son caracteres que nos dejan emparejar nombres de archivos con patrones, en vez de escribirlos directamente(Cualquier cadena de texto).
 
 ### Ejemplos 📝
 
 #### `*`
 
- >
+> Si coinciden 0 o mas caracteres
 
 ```bash
-# Ejemplo
+# Listar todos los archivos con extension .txt
+ls *.txt
+
+# Borrar todos los .log
+rm *.log 
 ```
 
 #### `?`
 
->
+> Si coincide solamente un caracter
 
 ```bash
-# Ejemplo
+# Encuentra file1.text, file2.txt, fileA.txt, etc
+ls file?.txt
+# Busca archivos con solo 3 caracteres.
+ls ???.txt
 ```
 
 #### `[]`
 
->
+>  Si coinciden uno de los caracteres adentro de los corchetes.
 
 ```bash
-# Ejemplo
+# Encuentra solo file1.txt, file2.txt, file3.txt
+ls file[123].txt 
+
+# Filtra entre el rango de numeros
+ls report[0-9].pdf # report0.pdf ... report9.pdf
+  
+# Usando en conjunto podemos hacer unos buenos filtros. Aqui encuentra archivos que empiezan   # por "a".
+ls [Aa]*           
 ```
 
 ---
