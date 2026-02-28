@@ -7,7 +7,8 @@ read VAR
 # bc devuelve 1 si verdadero, 0 si falso
 if [ $(echo "$VAR > 4.5" | bc) -eq 1 ]; then
     echo "$VAR es mayor que 4.5"
-fi else echo "$VAR es menor que 4.5" 
+else
+    echo "$VAR es menor o igual que 4.5"
 fi
 
 
