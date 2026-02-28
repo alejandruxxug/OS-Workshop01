@@ -1,6 +1,6 @@
 #!/bin/bash
 # Condicionales con números flotantes en Bash
-# Bash no soporta decimales nativamente, usamos 'bc' 
+# Bash no soporta decimales nativamente entonces usamos 'bc' 
 echo "Ingrese un número (true si es mayor a 4.5): "
 read VAR
 # Usamos bc (Basic Calculator)
