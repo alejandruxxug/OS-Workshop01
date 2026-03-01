@@ -231,33 +231,13 @@ ls [Aa]*
 
 ### a. Mostrar el tamaño de cada archivo en una carpeta
 
-```bash
-# Script aquí
-```
-
 ### b. Contar subcarpetas y archivos dentro de cada una
-
-```bash
-# Script aquí
-```
 
 ### c. Comprimir archivos y/o carpetas dentro de una carpeta
 
-```bash
-# Script aquí
-```
-
 ### d. Archivos modificados en las últimas 24 horas
 
-```bash
-# Script aquí
-```
-
 ### e. Archivos que superan un peso en particular
-
-```bash
-# Script aquí
-```
 
 ---
 
