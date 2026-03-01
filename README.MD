@@ -227,7 +227,7 @@ ls [Aa]*
 
 ---
 
-## 9. 📁 Scripts - Gestión de Archivos
+## 9. 📁 Scripts - Gestión de Archivos (Carpeta 9)
 
 ### a. Mostrar el tamaño de cada archivo en una carpeta
 
