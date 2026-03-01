@@ -1,11 +1,15 @@
 #!/bin/bash
-# Crear subcarpetas
-echo "Elija cuantas subcarpetas quiere crear"
-read cantidad
+# Crear carpeta con X subcarpetas (X por consola)
 
-for ((i=1; i<=cantidad; i++)); do
-    mkdir subcarpeta_$i
-    echo "Subcarpeta $i creada"
+read -p "cuantas subcarpetas? " x
+mkdir -p mi_carpeta
+cd mi_carpeta
+
+i=1
+while [ $i -le $x ]; do
+    mkdir -p subcarpeta_$i
+    i=$((i+1))
 done
 
-echo "Subcarpetas creadas exitosamente"
+cd ..
+echo listo

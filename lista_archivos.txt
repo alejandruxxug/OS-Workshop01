@@ -1,0 +1,16 @@
+total 72
+drwxr-xr-x@ 15 urrexx  staff    480 Mar  1 00:32 .
+drwxr-xr-x@  4 urrexx  staff    128 Feb 28 14:09 ..
+drwxr-xr-x@ 15 urrexx  staff    480 Feb 28 18:15 .git
+drwxr-xr-x@  8 urrexx  staff    256 Feb 26 20:29 3
+drwxr-xr-x@  3 urrexx  staff     96 Feb 28 09:13 6
+drwxr-xr-x@  6 urrexx  staff    192 Feb 28 13:44 7
+drwxr-xr-x@  5 urrexx  staff    160 Feb 28 14:12 8
+drwxr-xr-x@  7 urrexx  staff    224 Mar  1 00:14 9
+-rw-r--r--@  1 urrexx  staff  10645 Feb 28 18:15 README.MD
+-rw-r--r--@  1 urrexx  staff  13380 Feb 28 12:16 Repositorio de GitHub.docx
+-rw-r--r--@  1 urrexx  staff    540 Mar  1 00:32 backup_20260301.tar.gz
+drwxr-xr-x@  4 urrexx  staff    128 Mar  1 00:32 carpeta_con_archivos
+-rw-r--r--@  1 urrexx  staff      0 Mar  1 00:33 lista_archivos.txt
+drwxr-xr-x@  5 urrexx  staff    160 Mar  1 00:14 mi_carpeta
+-rw-r--r--@  1 urrexx  staff     11 Mar  1 00:33 output.txt

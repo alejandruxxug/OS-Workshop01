@@ -17,7 +17,7 @@ for i in "${!arr[@]}"; do
 done
 
 if [ $encontrado -eq 1 ]; then
-    echo "El elemento $buscar está en los índices:$indices 
+    echo "El elemento $buscar está en los índices:$indices"
 else
     echo "El elemento $buscar no se encontró"
 fi
